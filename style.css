@@ -1,0 +1,36 @@
+#btn {
+	width: 65px;
+	height: 35px;
+	color: #6500c3;
+	font-size: 15px;
+	border: solid 1px #6500c3;
+	border-radius: 5px;
+	background-color: transparent;
+	transition-duration: .5s;
+	cursor: pointer;
+}
+
+#next {
+  width: 65px;
+  height: 35px;
+  background-color: red;
+}
+
+[data-status] {
+  padding: 5px 10px;
+}
+
+[data-status="대기중"] {
+  background-color: #FF6767;
+  color: #FFFFFF;
+}
+
+[data-status="진행중"] {
+  background-color: #5f62ff;
+  color: #FFFFFF;
+}
+
+[data-status="완료"] {
+  background-color: #07c456;
+  color: #FFFFFF;
+}
