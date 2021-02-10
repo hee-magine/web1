@@ -11,7 +11,7 @@ myBtn.addEventListener('click',event2);
 const one = document.querySelector('#one');
 const fields = document.querySelectorAll('[data-field]');
 const task = {
-  title: '만쥬 밥 주기',
+  title: '만쥬 밥 주기, 놀아주기',
   manager: 'hee-magine / Heesan Kang',
   status: ''
 }
